@@ -19,4 +19,20 @@ mlruns/
 # IDE
 .vscode/
 .idea/
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+confusion_matrix_*.png
+
+# MLflow virtual environment
+.venv-mlflow/
+
+# Python
+__pycache__/
+*.pyc
+
+# Feast generated data and databases
+**/data/*.parquet
+**/data/*.db
 
