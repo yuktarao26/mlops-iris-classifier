@@ -35,4 +35,5 @@ __pycache__/
 # Feast generated data and databases
 **/data/*.parquet
 **/data/*.db
-
+# Practical 7 generated files
+model_comparison.png
